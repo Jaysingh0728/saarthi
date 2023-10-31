@@ -23,11 +23,7 @@ function Sidenav() {
   };
   return (
     <div className="sidenav">
-      <img
-        className="sidenav__logo"
-        src="https://www.pngkey.com/png/full/828-8286178_mackeys-work-needs-no-elaborate-presentation-or-distracting.png"
-        alt="Instagram Logo"
-      />
+      <h1 className="sidenav__logo">Saarthi</h1>
 
       <div className="sidenav__buttons">
         <button className="sidenav__button">
@@ -40,11 +36,11 @@ function Sidenav() {
         </button>
         <button className="sidenav__button">
           <ExploreIcon />
-          <span>Explore</span>
+          <span>News</span>
         </button>
         <button className="sidenav__button">
           <SlideshowIcon />
-          <span>Reels</span>
+          <span>Movies</span>
         </button>
         <button className="sidenav__button">
           <ChatIcon />
@@ -56,7 +52,7 @@ function Sidenav() {
         </button>
         <button className="sidenav__button">
           <AddCircleOutlineIcon />
-          <span>Create</span>
+          <span>Create Post</span>
         </button>
         <button className="sidenav__button">
           <Avatar>

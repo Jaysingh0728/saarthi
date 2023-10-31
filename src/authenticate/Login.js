@@ -12,10 +12,7 @@ function Login() {
   };
   return (
     <div className="login">
-      <img
-        src="https://www.pngkey.com/png/full/828-8286178_mackeys-work-needs-no-elaborate-presentation-or-distracting.png"
-        alt=""
-      />
+      <h1 className="logo">Saarthi</h1>
       <input
         onChange={(e) => setEmail(e.target.value)}
         type="email"

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Authenticate.css";
 import Login from "./Login";
 import Signup from "./Signup";
+import old from './old.png';
 
 function Authenticate() {
   const [active, setActive] = useState("login");
@@ -14,7 +15,7 @@ function Authenticate() {
     <div className="authenticate">
       <div className="auth__left">
         <img
-          src="https://i.imgur.com/P3Vm1Kq.png"
+          src={old}
           alt="Instagram Screenshots"
         />
       </div>
