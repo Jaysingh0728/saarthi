@@ -1,7 +1,12 @@
 .suggestions {
   margin-top: 30px;
   margin-right: 20px;
+  overflow-y: scroll;
+  height: 100vh;
+  position: fixed;
+  z-index: 1;
 }
+
 
 .suggestions__title {
   color: grey;

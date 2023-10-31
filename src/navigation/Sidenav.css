@@ -42,10 +42,6 @@
   text-decoration: none;
 }
 
-.sidenav__more {
-  position: fixed;
-  bottom: 3px;
-}
 
 .logout__button {
   font-size: 15px;
