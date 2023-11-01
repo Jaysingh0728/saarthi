@@ -44,7 +44,7 @@ function Sidenav() {
         </button>
         <button className="sidenav__button">
           <ChatIcon />
-          <span>Messages</span>
+          <a href="https://158sr.github.io/chatbox/" className="ex-link">Messages</a>
         </button>
         <button className="sidenav__button">
           <FavoriteBorderIcon />
