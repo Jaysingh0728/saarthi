@@ -6,6 +6,7 @@ import SlideshowIcon from "@mui/icons-material/Slideshow";
 import ChatIcon from "@mui/icons-material/Chat";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
+import MenuIcon from "@mui/icons-material/Menu";
 import { Avatar } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
 import { signOut } from "firebase/auth";
@@ -35,11 +36,11 @@ function Sidenav() {
         </button>
         <button className="sidenav__button">
           <MusicNote />
-          <a className="ex-link" href="https://open.spotify.com/playlist/2JNTQcXiuUxnlOu2fjr5Tr?si=cee3e1c533ae4d68">Music</a>
+          <a href="https://open.spotify.com/playlist/2JNTQcXiuUxnlOu2fjr5Tr?si=6e4f7968552d4a60" className="ex-link" target="to_blank">Music</a>
         </button>
         <button className="sidenav__button">
           <SlideshowIcon />
-          <span>Movies</span>
+          <a href="https://youtube.com/playlist?list=PLu7fNwAmPQYq2qvECVXbnlVJtLHSKnkC9&feature=shared"className="ex-link"target="to_blank">Movies</a>
         </button>
         <button className="sidenav__button">
           <ChatIcon />
@@ -64,6 +65,12 @@ function Sidenav() {
             <button onClick={handelLogout} className="logout__button">
               Logout
             </button>
+      </div>
+      <div className="sidenav__more">
+        <button className="sidenav__button">
+          <MenuIcon />
+          <span className="sidenav__buttonText">More</span>
+        </button>
       </div>
     </div>
   );
